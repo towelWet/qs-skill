@@ -25,9 +25,17 @@ Source code (analyzers, commands, core) lives in the project repo:
 | Usage guide, flag reference, known limits | this repo (`qs-skill`) |
 | Python source, analyzers, commands | [towelWet/qs](https://github.com/towelWet/qs) |
 
-## Usage
+## Install
 
-Drop this directory into `~/.claude/skills/qs/` and invoke with `/qs` in Claude Code.
+The skill needs qs code beside it (`bin/qs` is what SKILL.md calls):
+
+```
+git clone https://github.com/towelWet/qs ~/.claude/skills/qs
+git clone https://github.com/towelWet/qs-skill /tmp/qs-skill
+cp /tmp/qs-skill/SKILL.md /tmp/qs-skill/FLAGS.md ~/.claude/skills/qs/
+```
+
+Then invoke `/qs` in Claude Code.
 
 ## License
 
