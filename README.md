@@ -6,6 +6,8 @@ This is the AI skill that drives Claude Code when splitting oversized source fil
 Holds command reference, analyzer docs per language, architecture notes,
 and known limitations so context never has to be re-derived.
 
+![qs analyzing and splitting real multi-function Python file](docs/images/qs.png)
+
 ## What this skill contains
 
 | File | Purpose |
